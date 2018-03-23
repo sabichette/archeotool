@@ -1,0 +1,25 @@
+{
+  "name": "ArcheoTool",
+  "version": "1.0.0",
+  "description": "simple mean application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "sabrina Baudart",
+  "license": "ISC",
+  "dependencies": {
+    "@angular/core": "^5.2.9",
+    "body-parser": "^1.18.2",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "mongoose": "^5.0.11"
+  },
+  "devDependencies": {
+    "@angular/cli": "^1.7.3",
+    "@angular/compiler": "^5.2.9",
+    "@angular/compiler-cli": "^5.2.9",
+    "typescript": "^2.4.2",
+    "nodemon": "^1.17.2"
+  }
+}
