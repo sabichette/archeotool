@@ -1,5 +1,5 @@
 import { Injectable } from '@angular/core';
-import {Http, Headers} from '@angular/http';
+import { Http, Headers } from '@angular/http';
 import { PointOfInterest } from './pointofinterest';
 import 'rxjs/add/operator/map';
 
@@ -24,6 +24,7 @@ export class PiService {
 
   // Removing a point of interest
   deletePi(id) {
-    this.http.delete('http://localhost:3000/api/pi/'+id).map(res => res.json());
+    return this.http.delete('http://localhost:3000/api/pi/'+id)
+            .map(res => res.json());
   }
 }
